@@ -21,6 +21,7 @@ This project provides a step-by-step guide on how to deploy a machine learning m
 │── model.pkl            # Pre-trained machine learning model (Pickle file)
 │── requirements.txt     # Required dependencies
 
+![image](https://github.com/user-attachments/assets/90f31b00-0d2a-43cd-a892-502149e727de)
 
 
 
@@ -36,6 +37,7 @@ Create and activate a virtual environment:
 source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate     # For Windows
 
+![image](https://github.com/user-attachments/assets/1d3efb43-ee03-4c93-ba61-fb68e76a8375)
 
 ### 2. Install Dependencies
 Install the required Python packages:
@@ -51,6 +53,7 @@ Start the Flask application:
 # python3 app.py
 - The Flask app will run on http://127.0.0.1:5000/.
 - Access the frontend form at http://127.0.0.1:5000/.
+![image](https://github.com/user-attachments/assets/d5dbc5d9-7d22-4a9d-bbf9-99ae91911f48)
 
 #### API Endpoint
 - *URL*: http://127.0.0.1:5000/price
@@ -76,6 +79,7 @@ json
 }
 
 
+![image](https://github.com/user-attachments/assets/c490c435-203e-4ba5-8393-651449a47b54)
 
 
 ### 2. Running the Gradio UI (gradio_app.py)
@@ -114,3 +118,7 @@ python gradio_app.py
 - *Gradio UI*: Simple and interactive interface for local predictions.
 - *Flask API*: Scalable backend for integrating predictions into other applications.
 - *Postman Support*: Easily test the API endpoint using Postman.
+
+
+
+
